@@ -1,2 +1,2 @@
-# Orbion_3DMouse
-ORBION the OpenSource 3D Mouse
+# Orbion The OpenSource Space Mouse
+
