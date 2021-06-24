@@ -110,11 +110,19 @@ void loop()
     {
     if (digitalRead(CLK) == LOW) 
       {
+        if (EEPROM.read(10) == 4)
+            {
+              Keyboard.press(KEY_LEFT_ALT);
+            }
         Mouse.move(0, 0, -1);
       } 
       else 
         {
-        Mouse.move(0, 0, 1);
+          if (EEPROM.read(10) == 4)
+            {
+              Keyboard.press(KEY_LEFT_ALT);
+            }
+          Mouse.move(0, 0, 1);
         }
     }
   encBef = scr;
@@ -193,12 +201,13 @@ void loop()
       
       if ( (YValue <= offsetJoyY)&&(YValue >= (-offsetJoyY))  &&  (XValue <= offsetJoyX)&&(XValue >= (-offsetJoyX)))
         {  
-          if ( (digitalRead(encBut) == 1) && (digitalRead(butFun) == 1) )
+          if ( (digitalRead(encBut) == 1) && (digitalRead(butFun) == 1) || (EEPROM.read(10) == 4) )
             {
               Keyboard.releaseAll();
-              if (Mouse.isPressed(MOUSE_MIDDLE)==1)
+              if (Mouse.isPressed(MOUSE_MIDDLE)==1 || Mouse.isPressed(MOUSE_LEFn)==1)
                 {
                   Mouse.release(MOUSE_MIDDLE);
+                  Mouse.release(MOUSE_LEFT);
                   delay(50);
                 }
             }
@@ -386,6 +395,11 @@ void joyMode()
             display.setCursor(23,35);
             display.print("Blender");
           }
+        if(t == 4)
+          {
+            display.setCursor(33,35);
+            display.print("Adobe");
+          }
         display.display();
         rotaryJoy(&t);                     
         if(digitalRead(butFun)==LOW)
@@ -403,7 +417,7 @@ void rotaryJoy(int* s)
     if(digitalRead(DT) && !digitalRead(CLK) && !reset)
       {
         reset=HIGH;
-        if(*s<=2)
+        if(*s<=3)
           {
           *s = *s +1;
           }
@@ -411,7 +425,7 @@ void rotaryJoy(int* s)
     if(!digitalRead(DT) && digitalRead(CLK) && !reset)
       {
         reset=HIGH;
-        if((*s<=3) && (*s>1))
+        if((*s<=4) && (*s>1))
             {
             *s = *s -1;
             }
@@ -451,6 +465,12 @@ void selModes()
         Keyboard.press(KEY_LEFT_SHIFT);
         Keyboard.press(KEY_LEFT_ALT);
         Mouse.press(MOUSE_MIDDLE);
+      break;
+
+      case 4:
+        //Adobe
+        Keyboard.press(32);
+        Mouse.press(MOUSE_LEFT);
       break;
     }  
   }
