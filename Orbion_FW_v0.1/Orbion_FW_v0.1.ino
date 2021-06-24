@@ -8,15 +8,18 @@
 #include <Keyboard.h>
 #include <Wire.h>
 #include <Adafruit_GFX.h>
-#include <Adafruit_SH1106.h>
+#include <Adafruit_SH1106.h>                   // Comment if you use SSD1306
+//#include <Adafruit_SSD1306.h>                // Uncomment if your oled is SSD1306
 #define OLED_RESET 4
-Adafruit_SH1106 display(OLED_RESET);
+Adafruit_SH1106 display(OLED_RESET);           // Comment if you use SSD1306
+//Adafruit_SSD1306 display(OLED_RESET);        // Uncomment if your oled is SSD1306
+    
 
 /////////////// Encoder ////////////////////
 
-int DT = 7;       // Pin  Detect
-int CLK = 6;      // Pin  Clockwise
-int encBut = 5;    //Pin Button 
+int DT = 7;       // Pin  Detect                           <------------
+int CLK = 6;      // Pin  Clockwise                        <------------
+int encBut = 5;    //Pin encoder Button                    <------------
 
 int encBef = LOW;  
 int scr = LOW;            
@@ -24,8 +27,9 @@ int encBefClick = 0;
 
 /////////////// JoyStick ///////////////////
 
-int horzPin = A2;     // Analog output of X
-int vertPin = A1 ;     // Analog output of Y
+int horzPin = A2;         // Pin Analog output of X        <------------
+int vertPin = A1 ;        // Pin Analog output of Y        <------------
+int joyButt = 15;         // Pin Joystick Button           <------------
 
 int moved = 0;        
 int YZero, XZero;     
@@ -41,7 +45,7 @@ unsigned long tim, h;
 
 /////////////// Rear Button  ///////////////
 
-int butFun = 14;   // rear button
+int butFun = 14;   // Pin rear button                      <------------
 int butFunBef = 0;  
 char arButt [36] = {'q','w','e','r','t','y','u','i','o','p','a','s','d','f','g','h','j','k','l','z','x','c','v','b','n','m','1','2','3','4','5','6','7','8','9','0'};
 char cb;
@@ -51,13 +55,13 @@ char cb;
 int invertMouseX = -1;
 int invertMouseY = 1;
 int inv = 0;
+int smooth = 0;
 
 /////////////// MENU ////////////////////////
 
 int reset = LOW;
 int sel = 0;
 int exi = LOW;
-int push = 15;
 int first = LOW;
 int item = 0;
 int on = 1;
@@ -73,7 +77,7 @@ void setup()
     pinMode(butFun, INPUT_PULLUP);        
     pinMode (DT, INPUT);
     pinMode (CLK, INPUT);
-    pinMode (push, INPUT_PULLUP);
+    pinMode (joyButt, INPUT_PULLUP);
     
     YZero = analogRead(vertPin);  
     XZero = analogRead(horzPin);  
@@ -84,7 +88,9 @@ void setup()
     Mouse.begin();      
     Keyboard.begin();   
     
-    display.begin(SH1106_SWITCHCAPVCC, 0x3C);
+    display.begin(SH1106_SWITCHCAPVCC, 0x3C);             // Comment if you use SSD1306
+    //display.begin(SSD1306_SWITCHCAPVCC, 0x3C);          // Uncomment if your oled is SSD1306
+    
     display.setRotation(2);
     display.clearDisplay();
   }
@@ -158,8 +164,17 @@ void loop()
     }
 
 //////////////////////////////////////////////////////////////////////////// ORBIT & PAN //////////////////////////////
+  if(EEPROM.read(10) == 0)
+    {
+      smooth = 0;
+    }
+  else
+    {
+      smooth = 30;
+    }
+  
   tim = millis() - h;
-  if (tim >= 30)
+  if (tim >= smooth)
     {
       h = millis();
       if ((YValue > offsetJoyY)||(YValue < (-offsetJoyY)))
@@ -199,7 +214,7 @@ void loop()
     {
       start(&first);
     } 
-  if(digitalRead(push) == LOW)
+  if(digitalRead(joyButt) == LOW)
     {
       delay(300);
       do
@@ -278,7 +293,7 @@ void menu(int* s, int* e, int* f)
           display.setCursor(11,25);
           display.println("Joy Sense");
           display.display();
-          if(digitalRead(push)==LOW)
+          if(digitalRead(butFun)==LOW)
             {
               joySens();
             }
@@ -291,7 +306,7 @@ void menu(int* s, int* e, int* f)
           display.setCursor(16,25);
           display.println("Joy Mode");
           display.display();
-          if(digitalRead(push)==LOW)
+          if(digitalRead(butFun)==LOW)
             {
               joyMode();
             }
@@ -304,7 +319,7 @@ void menu(int* s, int* e, int* f)
           display.setCursor(10,25);
           display.println("Knob Push");
           display.display();
-          if(digitalRead(push)==LOW)
+          if(digitalRead(butFun)==LOW)
             {
               cenButt();
             }
@@ -317,7 +332,7 @@ void menu(int* s, int* e, int* f)
           display.setCursor(10,25);
           display.println("Rear Push");
           display.display();
-          if(digitalRead(push)==LOW)
+          if(digitalRead(butFun)==LOW)
             {
               buttMode();
             }
@@ -327,7 +342,7 @@ void menu(int* s, int* e, int* f)
           display.clearDisplay();
           display.drawBitmap(0, 0, ext, 128, 64, WHITE);
           display.display();
-          if(digitalRead(push)==LOW)
+          if(digitalRead(butFun)==LOW)
             {
               *e = HIGH;
             }
@@ -373,7 +388,7 @@ void joyMode()
           }
         display.display();
         rotaryJoy(&t);                     
-        if(digitalRead(push)==LOW)
+        if(digitalRead(butFun)==LOW)
           {
             ex = HIGH;
             EEPROM.update(10, t);
@@ -458,7 +473,7 @@ void joySens()
     display.print(t+1);
     display.display();
     rotaryJoySense(&t);
-    if(digitalRead(push)==LOW)
+    if(digitalRead(butFun)==LOW)
       {
       ex2=HIGH;
       EEPROM.update(0, t);
@@ -567,7 +582,7 @@ void buttMode()
           }
         display.display();
         rotaryButt(&t);
-        if(digitalRead(push)==LOW)
+        if(digitalRead(butFun)==LOW)
           {
             ex = HIGH;
             EEPROM.update(20, t);
@@ -686,7 +701,7 @@ void cenButt()
           }
         display.display();
         rotaryButt(&t);
-        if(digitalRead(push)==LOW)
+        if(digitalRead(butFun)==LOW)
           {
             ex = HIGH;
             EEPROM.update(30, t);
