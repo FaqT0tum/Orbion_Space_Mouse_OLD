@@ -38,8 +38,8 @@ int sens = 0;
 int arSens[5] = {60,35,23,10,5};
 int used = 0;         
 int lastused = 0;     
-int offsetJoyX = 12;    // set this value if the joystick moves by itself
-int offsetJoyY = 12;    // set this value if the joystick moves by itself
+int offsetJoyX = 14;    // set this value if the joystick moves by itself
+int offsetJoyY = 14;    // set this value if the joystick moves by itself
 
 unsigned long tim, h;
 
@@ -178,7 +178,7 @@ void loop()
     }
   else
     {
-      smooth = 30;
+      smooth = 35;
     }
   
   tim = millis() - h;
@@ -204,7 +204,7 @@ void loop()
           if ( (digitalRead(encBut) == 1) && (digitalRead(butFun) == 1) || (EEPROM.read(10) == 4) )
             {
               Keyboard.releaseAll();
-              if (Mouse.isPressed(MOUSE_MIDDLE)==1 || Mouse.isPressed(MOUSE_LEFn)==1)
+              if (Mouse.isPressed(MOUSE_MIDDLE)==1 || Mouse.isPressed(MOUSE_LEFT)==1)
                 {
                   Mouse.release(MOUSE_MIDDLE);
                   Mouse.release(MOUSE_LEFT);
