@@ -1,5 +1,7 @@
 # Orbion The OpenSource Space Mouse
 
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/YOUTUBE_NqHIdklkzfw/0.jpg)](https://www.youtube.com/watch?v=NqHIdklkzfw)
+
 ![](IMG/display.png)
 ![](IMG/Orbiter_menu_SCH.png)
 ![](IMG/home_ele_sch.png)
