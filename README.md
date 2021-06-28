@@ -20,6 +20,4 @@ https://it.aliexpress.com/item/32768308647.html?spm=a2g0o.productlist.0.0.643527
 https://it.aliexpress.com/item/4000043687021.html?spm=a2g0o.productlist.0.0.26165826mnRCmC&algo_pvid=3beb2ee8-32bb-4f53-a586-e5abf7e4a821&algo_exp_id=3beb2ee8-32bb-4f53-a586-e5abf7e4a821-1
 - Foam
 
-<p align="center">
- [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/NqHIdklkzfw/0.jpg)](https://www.youtube.com/watch?v=NqHIdklkzfw)
-</p>
+<p align="center"> <[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/NqHIdklkzfw/0.jpg)](https://www.youtube.com/watch?v=NqHIdklkzfw)> </p>
