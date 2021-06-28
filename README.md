@@ -1,7 +1,6 @@
 # Orbion The OpenSource Space Mouse
 
 ![](IMG/display.png)
-Youtube VIDEO -------------> [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/NqHIdklkzfw/0.jpg)](https://www.youtube.com/watch?v=NqHIdklkzfw)
 ![](IMG/Orbiter_menu_SCH.png)
 ![](IMG/home_ele_sch.png)
 
@@ -20,3 +19,7 @@ https://it.aliexpress.com/item/32768308647.html?spm=a2g0o.productlist.0.0.643527
 - Push Button 8mm:
 https://it.aliexpress.com/item/4000043687021.html?spm=a2g0o.productlist.0.0.26165826mnRCmC&algo_pvid=3beb2ee8-32bb-4f53-a586-e5abf7e4a821&algo_exp_id=3beb2ee8-32bb-4f53-a586-e5abf7e4a821-1
 - Foam
+
+<p align="center">
+ [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/NqHIdklkzfw/0.jpg)](https://www.youtube.com/watch?v=NqHIdklkzfw)
+</p>
