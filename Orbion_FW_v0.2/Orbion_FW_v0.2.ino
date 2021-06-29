@@ -41,7 +41,7 @@ int lastused = 0;
 int offsetJoyX = 15;    // set this value if the joystick moves by itself
 int offsetJoyY = 15;    // set this value if the joystick moves by itself
 
-unsigned long tim, h;
+unsigned long tim, h, tim1, h1, tim2, h2;
 
 /////////////// Rear Button  ///////////////
 
@@ -146,9 +146,13 @@ void loop()
   else if (digitalRead(butFun) && (butFunBef))
     {
       butFunBef = 0;
-      Mouse.release(MOUSE_MIDDLE);
-      Keyboard.releaseAll();
-      delay(50);
+      tim2 = millis() - h2;
+      if (tim2 > 50)
+        {
+          h2 = millis();
+          Mouse.release(MOUSE_MIDDLE);
+          Keyboard.releaseAll();
+        }
     }
 
 //////////////////////////////////////////////////////////////////////////// CENTRAL BUTTON ///////////////////////////////
@@ -169,9 +173,13 @@ void loop()
   else if (digitalRead(encBut) && (encBefClick))
     {
       encBefClick = 0;
-      Mouse.release(MOUSE_MIDDLE);
-      Keyboard.releaseAll();
-      delay(50);
+      tim2 = millis() - h2;
+      if (tim2 > 50)
+        {
+          h2 = millis();
+          Mouse.release(MOUSE_MIDDLE);
+          Keyboard.releaseAll();
+        }
     }
 
 //////////////////////////////////////////////////////////////////////////// ORBIT & PAN //////////////////////////////
