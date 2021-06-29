@@ -207,11 +207,13 @@ void loop()
           if ( (digitalRead(encBut) == 1) && (digitalRead(butFun) == 1) || (EEPROM.read(10) == 4) )
             {
               Keyboard.releaseAll();
-              if (Mouse.isPressed(MOUSE_MIDDLE)==1 || Mouse.isPressed(MOUSE_LEFT)==1)
+              tim1 = millis() - h1;
+              if (tim1 > 100)
                 {
+                  h1 = millis();
                   Mouse.release(MOUSE_MIDDLE);
                   Mouse.release(MOUSE_LEFT);
-                  delay(50);
+                  delay(100);
                 }
             }
           
