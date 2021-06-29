@@ -1,0 +1,1 @@
+![](Slicer/placement.png)
