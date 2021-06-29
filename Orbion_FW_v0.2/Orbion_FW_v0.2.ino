@@ -208,12 +208,11 @@ void loop()
             {
               Keyboard.releaseAll();
               tim1 = millis() - h1;
-              if (tim1 > 100)
+              if (tim1 > 120)
                 {
                   h1 = millis();
                   Mouse.release(MOUSE_MIDDLE);
                   Mouse.release(MOUSE_LEFT);
-                  delay(100);
                 }
             }
           
