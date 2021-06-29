@@ -21,13 +21,3 @@ https://it.aliexpress.com/item/4000043687021.html?spm=a2g0o.productlist.0.0.2616
 - Foam
 
 video: https://youtube.com/embed/NqHIdklkzfw
-
-<div class="embed-container">
-  <iframe
-      src="https://www.youtube.com/embed/{{ NqHIdklkzfw }}"
-      width="700"
-      height="480"
-      frameborder="0"
-      allowfullscreen="">
-  </iframe>
-</div>
