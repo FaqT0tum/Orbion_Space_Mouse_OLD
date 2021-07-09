@@ -7,7 +7,8 @@
 To ensure greater precision and fluidity it is recommended to put a foam ring under the knob (see photo above) and dielectric lubricant in the joystick!
 
 Componets:
-
+- M3x20 (7pcs)
+- Nuts M3 (3pcs)
 - Oled 1.3" I2C: 
 https://it.aliexpress.com/item/4001145494936.html?spm=a2g0o.productlist.0.0.20573c27WT2geb&aem_p4p_detail=202106241507354401350500623120002217940
 - Encoder (KY-040): 
