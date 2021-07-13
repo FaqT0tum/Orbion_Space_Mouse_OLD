@@ -538,8 +538,8 @@ void buttMode(int *e)
         display.clearDisplay();
         display.setTextColor(WHITE);
         display.setTextSize(2);
-        display.setCursor(12,10);
-        display.println("KNOB BUTT");
+        display.setCursor(10,10);
+        display.println("SELECT FN");
         if (t <= 35)
           {
             display.setCursor(58,35);
