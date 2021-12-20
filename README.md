@@ -6,6 +6,9 @@
 
 To ensure greater precision and fluidity it is recommended to put a foam ring under the knob (see photo above) and dielectric lubricant in the joystick!
 
+follow me for other news :P
+https://www.instagram.com/faq_t0tum/
+
 The ORBION project is OpenSource so if you have the pleasure of supporting my next works I will be grateful fot the coffee.  
 PayPal: https://www.paypal.me/MattiaRusso308?locale.x=it_IT
 
