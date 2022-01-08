@@ -218,6 +218,10 @@ void loop()
     {
       item = 6; //////////////////// item main menu
       rotaryMenu(&sel, &item);
+      Keyboard.releaseAll();
+      Mouse.release(MOUSE_MIDDLE);
+      Mouse.release(MOUSE_LEFT);
+      Mouse.release(MOUSE_RIGHT);
       menu(&sel, &exi, &first);
     } while (exi == LOW);
     delay(300);
