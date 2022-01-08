@@ -28,3 +28,7 @@ https://s.click.aliexpress.com/e/_ADGxZS
 - Foam
 
 video: https://youtube.com/embed/NqHIdklkzfw
+
+
+For Onshape:
+By default right mouse button is pressed, so it is recommend to add scroll for example on knob button.
