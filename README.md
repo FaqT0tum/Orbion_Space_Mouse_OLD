@@ -12,6 +12,18 @@ https://www.instagram.com/faq_t0tum/
 The ORBION project is OpenSource so if you have the pleasure of supporting my next works I will be grateful fot the coffee.  
 PayPal: https://www.paypal.me/MattiaRusso308?locale.x=it_IT
 
+cad & 3d sculptors supported (continuously updated):
+- Fusion360
+- Autoocad
+- SolidWork
+- Solid EDGE
+- Onshape
+- Ansa
+- ZBrush
+- Blender
+- Adobe Suite
+- Rhino
+
 Componets:
 - M3x20 (7pcs)
 - Nuts M3 (3pcs)
