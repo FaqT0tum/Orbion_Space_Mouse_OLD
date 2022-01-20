@@ -27,6 +27,8 @@ Cad & 3D sculptors supported (continuously updated):
 - Rhino
 - FreeCAD
 
+ATTENTION: It is essential to use ARDUINO PRO MICRO with ATMEL32U4 processor
+
 Componets:
 - M3x20 (7pcs)
 - Nuts M3 (3pcs)
