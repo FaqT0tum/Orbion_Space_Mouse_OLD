@@ -34,8 +34,10 @@ Cad & 3D sculptors supported (continuously updated):
 ATTENTION: It is essential to use ARDUINO PRO MICRO with ATMEL32U4 processor
 
 Componets:
-- M3x20 (7pcs)
-- Nuts M3 (3pcs)
+- M3x15 (3pcs)
+- M3x8 (2pcs)
+- M3x10 (4pcs)
+- Insert 5x4 M3 (9pcs)
 - Oled 1.3" I2C: 
 https://s.click.aliexpress.com/e/_AtYDV6
 - Encoder (KY-040): 
