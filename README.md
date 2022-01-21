@@ -8,6 +8,8 @@ To ensure greater precision and fluidity it is recommended to put a foam ring un
 
 If you notice that your joystick goes in different directions, you can change the direction, swapping the cables VRx and VRy or alternatively the variables horzPin and vertPin in the sketch (Find the joystick section above)
 
+Before printing pay attention to the center distance of the encoder holes, 2 more diffuse sizes are available, 14mm and 17mm (file Enc_holder & Knob_axis)
+
 follow me for other news :P
 https://www.instagram.com/faq_t0tum/
 
