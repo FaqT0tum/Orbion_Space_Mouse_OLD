@@ -45,7 +45,7 @@ https://s.click.aliexpress.com/e/_AtYDV6
 - Encoder (KY-040): 
 https://s.click.aliexpress.com/e/_AmjV9a
 - Joystick (KY-023): 
-https://it.aliexpress.com/item/1005002116584640.html?spm=a2g0o.productlist.0.0.2e2b50c7nvFgde&algo_pvid=6dde9e9f-ddc6-48b0-82c2-fe9a0bd0ef56&algo_exp_id=6dde9e9f-ddc6-48b0-82c2-fe9a0bd0ef56-0&pdp_ext_f=%7B%22sku_id%22%3A%2212000018795085331%22%7D&pdp_pi=-1%3B3.78%3B-1%3B-1%40salePrice%3BEUR%3Bsearch-mainSearch (important: the joystick shaft must be 4mm)
+https://s.click.aliexpress.com/e/_A8hY9K (important: the joystick shaft must be 4mm)
 - Arduino Pro Micro:
 https://s.click.aliexpress.com/e/_AYt9zi
 - Push Button 8mm:
