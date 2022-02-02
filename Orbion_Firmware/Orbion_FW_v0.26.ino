@@ -27,8 +27,8 @@ int encBefClick = 0;
 
 /////////////// JoyStick ///////////////////
 
-int horzPin = A2;         // Pin Analog output of X        <------------
-int vertPin = A1 ;        // Pin Analog output of Y        <------------
+int horzPin = A1;         // Pin Analog output of X        <------------
+int vertPin = A2;        // Pin Analog output of Y        <------------
 int joyButt = 15;         // Pin Joystick Button           <------------
 
 int moved = 0;        
@@ -370,7 +370,7 @@ void menu(int* s, int* e, int* f)
           display.setTextColor(WHITE);
           display.setTextSize(1);
           display.setCursor(49,54);
-          display.println("v0.25");
+          display.println("v0.26");
           display.display();
           if(digitalRead(butFun)==LOW)
             {
