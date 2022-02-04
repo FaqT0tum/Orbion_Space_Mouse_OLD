@@ -6,6 +6,8 @@
 
 Please note that only Rev2 is taken into consideration
 
+PAY ATTENTION .... for problems caused by badly produced components and wrong heights due to the calibration of printers not created Tickets as they are unique problems and not attributable to the project.
+
 To ensure greater precision and fluidity it is recommended to put a foam ring under the knob (see photo above) and dielectric lubricant in the joystick!
 
 If you notice that your joystick goes in different directions, you can change the direction, swapping the cables VRx and VRy or alternatively the variables horzPin and vertPin in the sketch (Find the joystick section above)
