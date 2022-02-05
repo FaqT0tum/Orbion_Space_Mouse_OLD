@@ -5,6 +5,7 @@
 ![](IMG/home_ele_sch.png)
 
 ![](IMG/bellows_HiNATA.png)
+
 Bellows to be created in TPU to replace the FOAM. Designed by HiNATA
 
 
