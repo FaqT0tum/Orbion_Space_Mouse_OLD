@@ -221,6 +221,7 @@ void loop()
                   h1 = millis();
                   Mouse.release(MOUSE_MIDDLE);
                   Mouse.release(MOUSE_LEFT);
+                  Mouse.release(MOUSE_RIGHT)
                 }
             }
           
