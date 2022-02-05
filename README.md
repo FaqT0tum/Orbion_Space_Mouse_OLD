@@ -4,11 +4,9 @@
 ![](IMG/Orbiter_menu_SCH.png)
 ![](IMG/home_ele_sch.png)
 
-![](IMG/bellows_HiNATA.png)
-
 Bellows to be created in TPU to replace the FOAM. Designed by HiNATA
 
-
+![](IMG/bellows_HiNATA.png)
 
 
 Please note that only Rev2 is taken into consideration
