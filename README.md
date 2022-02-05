@@ -59,4 +59,5 @@ https://s.click.aliexpress.com/e/_AYt9zi
 https://s.click.aliexpress.com/e/_ADGxZS
 - Foam
 
-video: https://youtube.com/embed/NqHIdklkzfw
+Demo video: https://youtube.com/embed/NqHIdklkzfw
+Assembly video: Coming Soon!
