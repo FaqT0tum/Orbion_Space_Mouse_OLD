@@ -21,6 +21,8 @@ Before printing pay attention to the center distance of the encoder holes, 2 mor
 
 follow me for other news :P
 https://www.instagram.com/faq_t0tum/
+OR Join in the Discord Channel
+https://discord.gg/GEaRMQxh
 
 The ORBION project is OpenSource so if you have the pleasure of supporting my next works I will be grateful fot the coffee.  
 PayPal: https://www.paypal.me/MattiaRusso308?locale.x=it_IT
