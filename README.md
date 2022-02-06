@@ -4,14 +4,16 @@
 ![](IMG/Orbiter_menu_SCH.png)
 ![](IMG/home_ele_sch.png)
 
-Bellows to be created in TPU to replace the FOAM. Designed by HiNATA
+## Cushion to be created in TPU to replace the FOAM. Designed by HiNATA
 
-![](IMG/bellows_HiNATA.png)
+![](IMG/cushion_HiNATA.png)
 
+
+# PAY ATTENTION
 
 Please note that only Rev2 is taken into consideration
 
-PAY ATTENTION .... for problems caused by badly produced components and wrong heights due to the calibration of printers not created Tickets as they are unique problems and not attributable to the project.
+For problems caused by badly produced components and wrong heights due to the calibration of printers not created Tickets as they are unique problems and not attributable to the project.
 
 To ensure greater precision and fluidity it is recommended to put a foam ring under the knob (see photo above) and dielectric lubricant in the joystick!
 
@@ -19,13 +21,21 @@ If you notice that your joystick goes in different directions, you can change th
 
 Before printing pay attention to the center distance of the encoder holes, 2 more diffuse sizes are available, 14mm and 17mm (file Enc_holder & Knob_axis)
 
+
+# SOCIAL
+
 follow me for other news :P
 https://www.instagram.com/faq_t0tum/
+
 OR Join in the Discord Channel
 https://discord.gg/GEaRMQxh
 
+# Buy me a coffee
+
 The ORBION project is OpenSource so if you have the pleasure of supporting my next works I will be grateful fot the coffee.  
 PayPal: https://www.paypal.me/MattiaRusso308?locale.x=it_IT
+
+# Compatibility
 
 Cad & 3D sculptors supported (continuously updated):
 - Fusion360
@@ -40,14 +50,14 @@ Cad & 3D sculptors supported (continuously updated):
 - Rhino
 - FreeCAD
 
-ATTENTION: It is essential to use ARDUINO PRO MICRO with ATMEL32U4 processor
+# BOM
 
 Componets:
 - M3x15 (3pcs)
 - M3x6 or M3x8 (2pcs)
 - M3x10 (4pcs)
 https://s.click.aliexpress.com/e/_9R4lDe
-- Insert 5x4 or 5x5 (Diameter x Height) M3 (9pcs):
+- Insert 5x4 or 5x5 (Diameter x Height) M3 (10pcs):
 https://s.click.aliexpress.com/e/_9yVx2u
 - Oled 1.3" I2C: 
 https://s.click.aliexpress.com/e/_AtYDV6
@@ -60,6 +70,10 @@ https://s.click.aliexpress.com/e/_AYt9zi
 - Push Button 8mm:
 https://s.click.aliexpress.com/e/_ADGxZS
 - Foam
+
+ATTENTION: It is essential to use ARDUINO PRO MICRO with ATMEL32U4 processor
+
+# YouTube
 
 Demo video: https://youtube.com/embed/NqHIdklkzfw
 
