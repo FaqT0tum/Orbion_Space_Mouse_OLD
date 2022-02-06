@@ -6,7 +6,7 @@
 
 ## Cushion to be created in TPU to replace the FOAM. Designed by HiNATA
 
-![](IMG/cushion_HiNATA.png)
+![](IMG/bellows_HiNATA.png)
 
 
 # PAY ATTENTION
@@ -24,16 +24,16 @@ Before printing pay attention to the center distance of the encoder holes, 2 mor
 
 # SOCIAL
 
-follow me for other news :P
-https://www.instagram.com/faq_t0tum/
+follow me on [instagram](https://www.instagram.com/faq_t0tum/) for other news :P
 
-OR Join in the Discord Channel
-https://discord.gg/GEaRMQxh
+OR 
+
+Join in the [Discord](https://discord.gg/GEaRMQxh) Channel
 
 # Buy me a coffee
 
 The ORBION project is OpenSource so if you have the pleasure of supporting my next works I will be grateful fot the coffee.  
-PayPal: https://www.paypal.me/MattiaRusso308?locale.x=it_IT
+[PayPal](https://www.paypal.me/MattiaRusso308?locale.x=it_IT)
 
 # Compatibility
 
@@ -56,25 +56,18 @@ Componets:
 - M3x15 (3pcs)
 - M3x6 or M3x8 (2pcs)
 - M3x10 (4pcs)
-https://s.click.aliexpress.com/e/_9R4lDe
-- Insert 5x4 or 5x5 (Diameter x Height) M3 (10pcs):
-https://s.click.aliexpress.com/e/_9yVx2u
-- Oled 1.3" I2C: 
-https://s.click.aliexpress.com/e/_AtYDV6
-- Encoder (KY-040): 
-https://s.click.aliexpress.com/e/_AmjV9a
-- Joystick (KY-023): 
-https://s.click.aliexpress.com/e/_A8hY9K (important: the joystick shaft must be 4mm)
-- Arduino Pro Micro:
-https://s.click.aliexpress.com/e/_AYt9zi
-- Push Button 8mm:
-https://s.click.aliexpress.com/e/_ADGxZS
+[M3 Kit](https://s.click.aliexpress.com/e/_9R4lDe)
+- [Insert 5x4 or 5x5 (Diameter x Height) M3 (10pcs)](https://s.click.aliexpress.com/e/_9yVx2u)
+- [Oled 1.3" I2C](https://s.click.aliexpress.com/e/_AtYDV6)
+- [Encoder (KY-040)](https://s.click.aliexpress.com/e/_AmjV9a)
+- [Joystick (KY-023)](https://s.click.aliexpress.com/e/_A8hY9K) (important: the joystick shaft must be 4mm)
+- [Arduino Pro Micro](https://s.click.aliexpress.com/e/_AYt9zi) ATTENTION: It is essential to use ARDUINO PRO MICRO with ATMEL32U4 processor
+- [Push Button 8mm](https://s.click.aliexpress.com/e/_ADGxZS)
 - Foam
 
-ATTENTION: It is essential to use ARDUINO PRO MICRO with ATMEL32U4 processor
 
 # YouTube
 
-Demo video: https://youtube.com/embed/NqHIdklkzfw
+Demo [video](https://youtube.com/embed/NqHIdklkzfw)
 
 Assembly video: Coming Soon!
