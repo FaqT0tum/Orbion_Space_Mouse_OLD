@@ -6,5 +6,6 @@
 - select the board to use (Tools -> Board -> Arduino AVR Board -> Arduino Micro)
 - select the port of your arduino (Tool -> Port -> (Arduino Micro) )
 - now you are ready to upload the Firmware (Sketch -> Upload)
-
 - now enjoy :)
+
+#### Download only one version of the .ino file, for example the latest
