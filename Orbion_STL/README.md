@@ -10,4 +10,4 @@
 
 # Slicer
 
-![](Slicer/placement.png)
+![](Slicer/placements.png)
