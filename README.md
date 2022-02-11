@@ -9,6 +9,7 @@
 
 ![](IMG/bellows_HiNATA.png)
 
+[![Orbion](https://yt-embed.herokuapp.com/embed?v=NqHIdklkzfw&t)](https://www.youtube.com/watch?v=NqHIdklkzfw&t "Orbion")
 
 # PAY ATTENTION
 
@@ -23,13 +24,12 @@ If you notice that your joystick goes in different directions, you can change th
 Before printing pay attention to the center distance of the encoder holes, 2 more diffuse sizes are available, 14mm and 17mm (file Enc_holder & Knob_axis)
 
 
-# SOCIAL
+# Social
 
-follow me on [instagram](https://www.instagram.com/faq_t0tum/) for other news :P
-
-OR 
-
-Join in the [Discord](https://discord.gg/GEaRMQxh) Channel
+- [Instagram](https://www.instagram.com/faq_t0tum/)
+- [Discord](https://discord.gg/3S2ZAGSf)
+- [YouTube](https://www.youtube.com/channel/UCHJ_528ZI0BcSU-QA8kIJlg)
+- [PusaPrinter](https://www.prusaprinters.org/social/218145-faqtotum/about)
 
 # Buy me a coffee
 
@@ -67,11 +67,6 @@ Componets:
 - Foam
 
 
-# YouTube
-
-Demo [video](https://youtube.com/embed/NqHIdklkzfw)
-
-Assembly video: Coming Soon!
 
 # License 
 ### [Attribution-NonCommercial-ShareAlike 4.0 International](http://creativecommons.org/licenses/by-nc-sa/4.0/)
