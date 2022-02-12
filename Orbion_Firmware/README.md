@@ -1,3 +1,8 @@
+# Update 0.26.2
+
+- improved scrolling in the menu
+- Added a key combination to access the menu (to avoid accidental entry)
+
 # Upload Orbion FIRMWARE on MCU
 
 - Download and Installa Arduino IDE https://www.arduino.cc/en/software
