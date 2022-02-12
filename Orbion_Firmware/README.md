@@ -1,7 +1,7 @@
 # Update 0.26.2
 
 - improved scrolling in the menu
-- Added a key combination to access the menu (to avoid accidental entry)
+- Added a key combination to access the menu, to avoid accidental entry (Rear Button + second central button of the knob)
 
 # Upload Orbion FIRMWARE on MCU
 
