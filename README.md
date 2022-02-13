@@ -81,3 +81,6 @@ Under the following terms:
 - Attribution — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
 - NonCommercial — You may not use the material for commercial purposes.
 - NoDerivatives — If you remix, transform, or build upon the material, you may not distribute the modified material.
+
+### If you have ideas, or changes made to the project and 'usually share them, you can contact me so publish them in the rapository (with your nick for thanks). 
+### The choice of this license was chosen not to disperse the project, so as to improve its quality
