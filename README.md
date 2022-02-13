@@ -2,7 +2,7 @@
 ### Version 2.2 now available (02/09/2022)
 
 ![](IMG/displays.png)
-![](IMG/Orbiter_menu_SCH.png)
+![](IMG/Orbiter_menu.png)
 ![](IMG/home_ele_sch.png)
 
 ## Cushion to be created in TPU to replace the FOAM. Designed by HiNATA
