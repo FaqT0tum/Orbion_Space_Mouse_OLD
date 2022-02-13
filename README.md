@@ -1,5 +1,7 @@
 # Orbion The OpenSource Space Mouse
-### Version 2.2 now available (02/09/2022)
+### Version now available
+- Body 2.2 (02/09/2022)
+- Firmware 0.26.2 (13/02/2022)
 
 ![](IMG/displays.png)
 ![](IMG/Orbiter_menu.png)
