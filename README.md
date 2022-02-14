@@ -1,3 +1,11 @@
+![alt text](https://cftechsol.com/wp-content/uploads/2017/12/caiofrota-logo-300x171.png)
+
+[![GitHub issues](https://img.shields.io/github/issues/FaqT0tum/Orbion_Space_Mouse.svg)](https://github.com/FaqT0tum/Orbion_Space_Mouse/issues)
+[![Fork](https://img.shields.io/github/forks/FaqT0tum/Orbion_Space_Mouse.svg)](#)
+[![Stars](https://img.shields.io/github/stars/FaqT0tum/Orbion_Space_Mouse.svg)](#)
+[![Total Downloads](https://img.shields.io/github/downloads/FaqT0tum/Orbion_Space_Mouse/total.svg)](https://github.com/FaqT0tum/Orbion_Space_Mouse/releases)
+
+
 # Orbion The OpenSource Space Mouse
 ### Version now available
 - Body 2.2 (02/09/2022)
