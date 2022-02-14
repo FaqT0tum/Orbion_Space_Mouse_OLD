@@ -20,7 +20,7 @@ String vers = "0.26.2";
 
 int DT = 7;       // Pin  Detect                           <------------
 int CLK = 6;      // Pin  Clockwise                        <------------
-int encBut = 7;    //Pin encoder Button                    <------------
+int encBut = 5;    //Pin encoder Button                    <------------
 
 int encBef = LOW;  
 int scr = LOW;            
