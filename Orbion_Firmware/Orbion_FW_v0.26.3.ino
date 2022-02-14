@@ -673,7 +673,8 @@ void selButt(int *e)
         case 44:
           Keyboard.press(KEY_LEFT_GUI);
           Mouse.press(MOUSE_MIDDLE);
-
+        break;
+          
         case 45:
           Keyboard.press(KEY_LEFT_CTRL);
           Mouse.press(MOUSE_MIDDLE);
