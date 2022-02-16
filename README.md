@@ -35,7 +35,7 @@ Before printing pay attention to the center distance of the encoder holes, 2 mor
 # Social
 
 - [Instagram](https://www.instagram.com/faq_t0tum/)
-- [Discord](https://discord.gg/3S2ZAGSf)
+- [Discord](https://discord.gg/tgut7grRTV)
 - [YouTube](https://www.youtube.com/channel/UCHJ_528ZI0BcSU-QA8kIJlg)
 - [PusaPrinter](https://www.prusaprinters.org/social/218145-faqtotum/about)
 
