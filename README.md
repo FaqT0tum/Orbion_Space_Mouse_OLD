@@ -6,7 +6,7 @@
 [![Total Downloads](https://img.shields.io/github/downloads/FaqT0tum/Orbion_Space_Mouse/total.svg)](https://github.com/FaqT0tum/Orbion_Space_Mouse/releases)
 
 ### Version now available
-- Body 2.2 (02/09/2022)
+- Body 2.2 (09/02/2022)
 - Firmware 0.26.2 (13/02/2022)
 
 ![](IMG/displays.png)
