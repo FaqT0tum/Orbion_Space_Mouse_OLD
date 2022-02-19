@@ -5,6 +5,18 @@
 [![Stars](https://img.shields.io/github/stars/FaqT0tum/Orbion_Space_Mouse.svg)](#)
 [![Total Downloads](https://img.shields.io/github/downloads/FaqT0tum/Orbion_Space_Mouse/total.svg)](https://github.com/FaqT0tum/Orbion_Space_Mouse/releases)
 
+### Next news
+- Neopixel Settings
+- Scroll improvement
+- Joystick improvement (the negative axes appear to have oversized values)
+- Generic improvements (indicated by users)
+
+- The next firmware will be released in the (Release) section, on a date to be determined
+
+- Video guide for assembly soon available on youtube (Status: Editing)
+
+If you want to follow the live updates come to [Discord](https://discord.gg/tgut7grRTV)
+
 ### Version now available
 - Body 2.2 (09/02/2022)
 - Firmware 0.26.2 (13/02/2022)
@@ -31,6 +43,8 @@ If you notice that your joystick goes in different directions, you can change th
 
 Before printing pay attention to the center distance of the encoder holes, 2 more diffuse sizes are available, 14mm and 17mm (file Enc_holder & Knob_axis)
 
+I would like to point out that, if you use ABS it is good to know that some dimensions will not be correct if you do not take the usual precautions to the problem of shrinkage
+In any case, make sure that your printer has the correct dimensional parameters
 
 # Social
 
