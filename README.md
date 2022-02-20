@@ -102,5 +102,5 @@ Under the following terms:
 - NonCommercial — You may not use the material for commercial purposes.
 - NoDerivatives — If you remix, transform, or build upon the material, you may not distribute the modified material.
 
-### If you have ideas, or changes made to the project and 'usually share them, you can contact me so publish them in the rapository (with your nick for thanks). 
+### If you have ideas, or changes made to the project and 'usually share them, you can contact me so publish them in the repository (with your nick for thanks). 
 ### The choice of this license was chosen not to disperse the project, so as to improve its quality
