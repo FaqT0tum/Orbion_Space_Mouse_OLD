@@ -51,7 +51,7 @@ In any case, make sure that your printer has the correct dimensional parameters
 - [Instagram](https://www.instagram.com/faq_t0tum/)
 - [Discord](https://discord.gg/tgut7grRTV)
 - [YouTube](https://www.youtube.com/channel/UCHJ_528ZI0BcSU-QA8kIJlg)
-- [PusaPrinter](https://www.prusaprinters.org/social/218145-faqtotum/about)
+- [PrusaPrinter](https://www.prusaprinters.org/social/218145-faqtotum/about)
 
 # Buy me a coffee
 
