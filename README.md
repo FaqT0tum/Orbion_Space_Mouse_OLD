@@ -51,7 +51,7 @@ In any case, make sure that your printer has the correct dimensional parameters
 - [Instagram](https://www.instagram.com/faq_t0tum/)
 - [Discord](https://discord.gg/tgut7grRTV)
 - [YouTube](https://www.youtube.com/channel/UCHJ_528ZI0BcSU-QA8kIJlg)
-- [PusaPrinter](https://www.prusaprinters.org/social/218145-faqtotum/about)
+- [PrusaPrinter](https://www.prusaprinters.org/social/218145-faqtotum/about)
 
 # Buy me a coffee
 
@@ -102,5 +102,5 @@ Under the following terms:
 - NonCommercial — You may not use the material for commercial purposes.
 - NoDerivatives — If you remix, transform, or build upon the material, you may not distribute the modified material.
 
-### If you have ideas, or changes made to the project and 'usually share them, you can contact me so publish them in the rapository (with your nick for thanks). 
+### If you have ideas, or changes made to the project and 'usually share them, you can contact me so publish them in the repository (with your nick for thanks). 
 ### The choice of this license was chosen not to disperse the project, so as to improve its quality
