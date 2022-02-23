@@ -1,4 +1,4 @@
-# Orbion MOD (Arcade) With 7 Push button By AFUDirk
+# Orbion MOD (Arcade) With 6 Push button By AFUDirk
 
 
 ![](IMG/Orbion_arcade.jpg)
