@@ -10,6 +10,7 @@
 - Scroll improvement
 - Joystick improvement (the negative axes appear to have oversized values)
 - Generic improvements (indicated by users)
+- Cover screen improvement
 
 - The next firmware will be released in the (Release) section, on a date to be determined
 
@@ -102,5 +103,6 @@ Under the following terms:
 - NonCommercial — You may not use the material for commercial purposes.
 - NoDerivatives — If you remix, transform, or build upon the material, you may not distribute the modified material.
 
-### If you have ideas, or changes made to the project and 'usually share them, you can contact me so publish them in the repository (with your nick for thanks). 
-### The choice of this license was chosen not to disperse the project, so as to improve its quality
+### If you have any other MODs you want to share, 
+### log into the [Discord](https://discord.gg/tgut7grRTV) channel and contact me to add into "Yours_Creations"
+
