@@ -87,7 +87,7 @@ Componets:
 - [Joystick (KY-023)](https://s.click.aliexpress.com/e/_A8hY9K) (important: the joystick shaft must be 4mm)
 - [Arduino Pro Micro](https://s.click.aliexpress.com/e/_AYt9zi) ATTENTION: It is essential to use ARDUINO PRO MICRO with ATMEL32U4 processor
 - [Push Button 8mm](https://s.click.aliexpress.com/e/_ADGxZS)
-- I recommend the use of 28awg cables
+- [Cable 28awg](https://s.click.aliexpress.com/e/_A6xGln)
 - Foam
 
 
