@@ -11,6 +11,8 @@
 - Joystick improvement (the negative axes appear to have oversized values)
 - Generic improvements (indicated by users)
 - Cover screen improvement
+- 3 rear button
+- New knob support sistem
 
 - The next firmware will be released in the (Release) section, on a date to be determined
 
