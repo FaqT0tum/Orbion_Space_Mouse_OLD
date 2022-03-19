@@ -16,7 +16,9 @@
 
 - The next firmware will be released in the (Release) section, on a date to be determined
 
-- Video guide for assembly soon available on youtube (Status: Editing)
+<h1> THIS VERSION IS OBSOLETE </h1>
+
+### go [here](https://github.com/FaqT0tum/Orbion_3D_Space_Mouse) for the new version
 
 If you want to follow the live updates come to [Discord](https://discord.gg/tgut7grRTV)
 
